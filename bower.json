@@ -1,0 +1,23 @@
+{
+  "name": "purescript-newtype-operator",
+  "homepage": "https://github.com/cyrbon/purescript-newtype-operator",
+  "description": "Provides ^ operator to ease nested newtype handling",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cyrbon/purescript-newtype-operator"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^3.0.0",
+    "purescript-newtype": "^2.0.0"
+  }
+}
