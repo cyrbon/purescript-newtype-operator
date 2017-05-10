@@ -1,6 +1,6 @@
 # purescript-newtype-operator
 
-Provides the `^` operator to ease nested newtype handling, when no lens are used.
+Provides the `^` operator to ease nested newtype handling when no lens are used.
 
 ## Installation
 
