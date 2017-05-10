@@ -10,6 +10,7 @@ module Data.Newtype.Operator
 
 import Data.Newtype (class Newtype, unwrap)
 
+-- | `flipMap` over an unwrapped newtype
 flipMapUnwrap :: forall n t a. Newtype n t => n -> (t -> a) -> a
 flipMapUnwrap n f = f (unwrap n)
 
